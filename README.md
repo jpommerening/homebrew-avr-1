@@ -1,11 +1,5 @@
 homebrew-avr
-=================
+============
 
-Based on @larsimmisch's [homebrew-avr](https://github.com/larsimmisch/homebrew-avr)
-this one includes [SimulAVR](http://www.nongnu.org/simulavr/) and GDB.
-
-```console
-jpommerening@bar$ brew tap jpommerening/avr
-jpommerening@bar$ brew install avr-gcc avr-gdb
-jpommerening@bar$ brew install --HEAD simulavr
-```
+This is the "backup branch" of my previous tap at jpommerening/homebrew-avr.
+All new work happens in osx-cross/homebrew-avr (which this repository is a fork of).
